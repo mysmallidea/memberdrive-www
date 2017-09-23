@@ -16,7 +16,7 @@ DJs can track real-time donation income and goal progress on a beautiful, glance
 
 <img src="/img/screenshots/MemberDrive-Dashboard.png" class="img-responsive">
 
-Members and donors can quickly easily donate online with our secure, 30-second donation checkout form. Even allow individual donors to set up their own matching funds, which they can promote to their friends through social media.
+Members and donors can easily donate online with our secure, 30-second donation checkout form. Even allow individual donors to set up their own matching funds, which they can promote to their friends through social media.
 
 What about your existing data? Easily migrate your historical donation data, or keep your existing database and use our integration platform.
 
