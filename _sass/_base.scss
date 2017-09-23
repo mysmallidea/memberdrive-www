@@ -5,7 +5,7 @@ body {
 }
 
 body {
-    @include serif-font;
+    @include sans-serif-font;
 }
 
 hr {
@@ -15,7 +15,7 @@ hr {
 }
 
 hr.light {
-    border-color: white;
+    border-color: #FFEFE8;
 }
 
 a {
@@ -33,7 +33,8 @@ h3,
 h4,
 h5,
 h6 {
-    @include sans-serif-font;
+    @include heading-font;
+    color: $theme-secondary;
 }
 
 p {
@@ -52,7 +53,7 @@ p {
 }
 
 .text-faded {
-    color: rgba(white, .7);
+    color: rgba(white, .8);
 }
 
 section {
@@ -154,24 +155,30 @@ header {
     width: 100%;
     min-height: auto;
     @include background-cover;
+    // background-size: cover;
     background-position: center;
     background-image: url('../img/header.jpg');
     text-align: center;
     color: white;
     .header-content {
         position: relative;
-        text-align: center;
+        text-align: left;
         padding: 100px 15px 100px;
         width: 100%;
         .header-content-inner {
             h1 {
                 font-weight: 700;
-                text-transform: uppercase;
+                font-size: 56px;
+                // text-transform: uppercase;
                 margin-top: 0;
-                margin-bottom: 0;
+                // margin-bottom: 0;
             }
             hr {
                 margin: 30px auto;
+            }
+            h2{
+                font-size: 36px;
+                margin-bottom: 50px;
             }
             p {
                 font-weight: 300;
@@ -182,7 +189,7 @@ header {
         }
     }
     @media (min-width: 768px) {
-        min-height: 100%;
+        min-height: 80%;
         .header-content {
             position: absolute;
             top: 50%;
@@ -304,15 +311,16 @@ header {
 }
 
 .btn {
-    @include sans-serif-font;
+    @include heading-font;
     border: none;
     border-radius: 300px;
-    font-weight: 700;
-    text-transform: uppercase;
+    font-weight: 400;
+    // text-transform: uppercase;
 }
 
 .btn-xl {
     padding: 15px 30px;
+    font-size: 18px;
 }
 
 // Contact
@@ -349,3 +357,31 @@ body {
     -webkit-tap-highlight-color: $theme-dark;
 }
 
+
+
+
+article.sales-letter {
+    p{
+        font-size: 20px;
+    }
+    h3{
+        line-height: 1.6;
+    }
+
+    .highlight{
+        text-shadow: yellow 0 0 60px;
+    }
+}
+
+.client-logos{
+    line-height: 6;
+    img{
+        margin: 0 20px;
+        &:first-of-type{
+            margin-left: 0;
+        }
+        &:last-of-type{
+            margin-right: 0;
+        }
+    }
+}
