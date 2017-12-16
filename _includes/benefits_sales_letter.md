@@ -2,7 +2,7 @@
 
 **Nobody enjoys your membership drive.**
 
-DJs try to call in sick. Exhausted show hosts grit their teeth and power through it. Worse, all but your most dedicated listeners tune you out.
+Show hosts try to call in sick. Exhausted show hosts grit their teeth and power through it. Worse, all but your most dedicated listeners tune you out.
 
 Everyone understands that an enormous amount of your funding comes from listener support. Membership drives are so important, why do they have to be so painful?
 
@@ -12,7 +12,7 @@ What if you could engage with new supporters and mobilize dedicated supporters o
 
 <h3 class="highlight">MemberDrive ties together your broadcast, online, email, and social media outreach into one live, dynamic campaign.</h3>
 
-DJs can track real-time donation income and goal progress on a beautiful, glanceable DJ dashboard. Call operators see the same information and can enter donations over the phone with just a few keystrokes.
+Show hosts can track real-time donation income and goal progress on a beautiful, glanceable Show Host dashboard. Call operators see the same information and can enter donations over the phone with just a few keystrokes.
 
 <img src="/img/screenshots/MemberDrive-Dashboard.png" class="img-responsive">
 
